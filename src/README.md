@@ -8,14 +8,12 @@ modules: # 指定首页展示模块
 
 bannerBrand:
   title: 趣助理
-  description: 基于无障碍服务的超多功能的工具百宝箱。
-  tagline: 通知消息,屏幕内消息处理专家。
+  description: 屏幕连点器+消息通知管理的多功能百宝箱。
+  tagline: 基于无障碍+消息通知+订阅法则。
   buttons:
     - { text: 下载, link: "/download/" }
     - { text: 浏览插件, link: "/extensions/", type: "plain" }
-  socialLinks:
-    - { icon: "LogoGithub", link: "https://github.com/miaoqidong/quzhuli" }
-    - { icon: "Telegram", link: "https://t.me/quzhuli" }
+
 
 features:
   - title: 消息助理
@@ -32,6 +30,13 @@ footer:
 ---
 
 <!-- ---
+
+
+  socialLinks:
+    - { icon: "LogoGithub", link: "https://github.com/miaoqidong/quzhuli" }
+    - { icon: "Telegram", link: "https://t.me/quzhuli" }
+
+
 home: true
 meta:
   - name: keywords
